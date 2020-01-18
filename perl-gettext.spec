@@ -1,6 +1,6 @@
 Name:           perl-gettext
 Version:        1.05
-Release:        26.2%{?dist}
+Release:        28%{?dist}
 Summary:        Interface to gettext family of functions
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -60,6 +60,12 @@ make test
 %{_mandir}/man3/*.3*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.05-28
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.05-27
+- Mass rebuild 2013-12-27
+
 * Thu Aug 01 2013 Petr Šabata <contyk@redhat.com> - 1.05-26.2
 - Fix the package for el7
 - Modernize the spec
